@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: var(--slate-text);
+}
+
+.list {
+  list-style: none;
+}
+
+/* variable list */
+
+:root {
+  --iris-primary-brand: #4d5ae5;
+  --ocean-pressed-state: #404bbf;
+  --navy-blue-dark: #2e2f42;
+  --green-success: #31d0aa;
+  --slate-text: #434455;
+  --light-slate-subtle-text: #8e8f99;
+  --cornflower-accent: #e7e9fc;
+  --cloud-light: #f4f4fd;
+  --navy-blue-modal-overlay: #2e2f42;
+  --grey-hero-background: #2e2f42;
+}
+
+/* header */
+
+/* .page-header {} */
+
+.header-logo {
+  color: var(--navy-blue-dark);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.logo-color {
+  color: var(--iris-primary-brand);
+}
+
+.header-navi-link {
+  color: var(--navy-blue-dark);
+}
