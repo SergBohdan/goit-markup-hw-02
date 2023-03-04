@@ -32,20 +32,20 @@ body {
 
 /* .page-header {} */
 
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue-dark);
+  color: var(--iris-primary-brand);
 }
 
-.logo-color {
-  color: var(--iris-primary-brand);
+.header-logo-color {
+  color: var(--navy-blue-dark);
 }
 
 .navi-link {
@@ -191,15 +191,7 @@ body {
   background-color: var(--grey-hero-background);
 }
 
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo-color {
   color: var(--cloud-light);
 }
 
