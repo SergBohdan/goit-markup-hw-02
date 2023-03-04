@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-/* header */
+/** header **/
 
 /* .page-header {} */
 
@@ -111,7 +111,7 @@ body {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -213,6 +213,7 @@ body {
 /* Portfolio.html */
 
 .btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
