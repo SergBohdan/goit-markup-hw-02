@@ -64,12 +64,17 @@ body {
   color: var(--ocean-pressed-state);
 }
 
+.address {
+  font-style: normal;
+}
+
 .header-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate-text);
 }
 
 .header-mail:hover {
@@ -86,6 +91,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate-text);
 }
 
 .header-tel:hover {
