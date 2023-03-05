@@ -69,7 +69,8 @@ body {
   color: var(--slate-text);
 }
 
-.header-mail {
+.header-mail,
+.header-tel {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -83,14 +84,6 @@ body {
 
 .header-mail:focus {
   color: var(--ocean-pressed-state);
-}
-
-.header-tel {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: inherit;
 }
 
 .header-tel:hover {
