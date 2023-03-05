@@ -66,15 +66,15 @@ body {
 
 .address {
   font-style: normal;
+  color: var(--slate-text);
 }
 
 .header-mail {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate-text);
+  color: inherit;
 }
 
 .header-mail:hover {
@@ -86,12 +86,11 @@ body {
 }
 
 .header-tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate-text);
+  color: inherit;
 }
 
 .header-tel:hover {
