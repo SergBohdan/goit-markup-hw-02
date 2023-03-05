@@ -93,14 +93,6 @@ body {
   color: inherit;
 }
 
-.header-tel:hover {
-  color: var(--ocean-pressed-state);
-}
-
-.header-tel:focus {
-  color: var(--ocean-pressed-state);
-}
-
 /* hero */
 
 .hero {
