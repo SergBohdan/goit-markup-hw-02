@@ -28,6 +28,14 @@ body {
   text-decoration: none;
 }
 
+.number {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
 /** header **/
 
 /* .page-header {} */
@@ -69,28 +77,12 @@ body {
   color: var(--slate-text);
 }
 
-.header-mail {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: inherit;
-}
-
 .header-mail:hover {
   color: var(--ocean-pressed-state);
 }
 
 .header-mail:focus {
   color: var(--ocean-pressed-state);
-}
-
-.header-tel {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: inherit;
 }
 
 /* hero */
