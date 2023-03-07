@@ -1,4 +1,4 @@
-/* variable list */
+/**------------- variable list ------------**/
 
 :root {
   --iris-primary-brand: #4d5ae5;
@@ -18,6 +18,7 @@ body {
   background-color: var(--text-white);
   font-family: "Roboto", sans-serif;
   color: var(--slate-text);
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -28,10 +29,7 @@ body {
   text-decoration: none;
 }
 
-.primary {
-}
-
-/** header **/
+/**---------------- header ----------------**/
 
 /* .page-header {} */
 
@@ -55,7 +53,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
 
@@ -76,7 +73,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: inherit;
 }
 
@@ -88,7 +84,7 @@ body {
   color: var(--ocean-pressed-state);
 }
 
-/* hero */
+/**--------------- hero ---------------**/
 
 .hero {
   background-color: var(--grey-hero-background);
@@ -98,7 +94,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--text-white-background);
 }
 
@@ -123,40 +118,36 @@ body {
   background-color: var(--ocean-pressed-state);
 }
 
-/** methods **/
+/**------------ methods -----------------**/
 
 .methods-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
 
 .methods-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-/* examples */
+/**--------------- examples ------------**/
 
 .examples-top-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-dark);
 }
 
-/* team */
+/**---------------- team ------------------**/
 
 .team-top-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-dark);
 }
@@ -166,7 +157,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
 
@@ -174,10 +164,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
-/* footer */
+/**------------- footer ---------------**/
 
 .footer {
   background-color: var(--grey-hero-background);
@@ -190,11 +179,10 @@ body {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--cornflower-accent);
 }
 
-/* Portfolio.html */
+/**--------------- Portfolio.html ---------------**/
 
 .button-list {
   cursor: pointer;
@@ -228,13 +216,11 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--navy-blue-dark);
 }
 
 .project-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--slate-text);
 }
